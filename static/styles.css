@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
+.info {
+    width: 85%;
+    margin: auto;
+}
+a.nav-link {
+    color: #111111;
+}
+a.nav-link:hover {
+    color: #f1bc58;
+}
+h1 {
+    font-size: 112px;
+}
+p {
+    font-size: 36px;
+} 
+.name {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar {
+    width: 24px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+@media (max-width: 910px) {
+    .info {
+        width: 98%;
+    }
+    h1 {
+        font-size: 9.5vw;
+    }
+    p {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 9.5vw;
+    }
+    p {
+        font-size: 4.5vw;
+    }
+    .name {
+        font-size: 18px;
+    }
+}
